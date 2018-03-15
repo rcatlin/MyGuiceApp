@@ -7,7 +7,7 @@ import lombok.ToString;
 @Builder
 @Getter
 @ToString
-public class Sample {
+public class Sample implements SampleInterface {
     private final String name;
     private final String client;
 }
